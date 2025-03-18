@@ -1,0 +1,165 @@
+
+
+
+*{margin: 0px;padding: 0px;box-sizing: border-box}
+body{font-family: 'Inter';font-size:14px;font-weight:400;line-height:24px;
+    overflow-x:hidden;background-color:#fff;color:#666}
+:root{
+    --secondary-color:#086ad8;
+    --margin:0px 0px 25px;
+    --primary:#666666;
+}
+/*-------------style.css-----------*/
+.sticky {position: fixed;width: 100%;z-index: 999;background-color: white;top: 0px;}
+
+
+/*==========================header===========================
+============================================================*/
+/*=========top-bar=========*/
+.top-bar{background-color: var(--secondary-color);}
+.top-bar li{list-style: none;font-size: 14px;}
+/*=========navbar=========*/
+.navbar{font-family: 'Inter';font-weight: 500;}
+i.fa.fa-phone {transform: rotate(265deg);font-size: 48px;color: var(--secondary-color);}
+li.nav-item a {font-size: 14px;font-weight: 600;}
+.navbar-brand{width: 15%;padding: 20px 15px;}
+.navbar__contact span {font-weight: 400;color: gray;font-family: 'Inter';font-size: 14px;}
+
+/*==========================IT-banner========================
+============================================================*/
+.IT-banner{background-color: #f3f7fd;font-family: 'Inter';margin-top: 15px;}
+.It-banner__text{padding: 125px 0px;}
+.It-banner__text h4{color: #0E2B3D;font-family:'Inter', sans-serif;font-size:24px;margin:0px 0px 25px;font-weight: 400;}
+.It-banner__text h2{color: #0E2B3D;font-size:60px;font-weight:400;line-height:72px;margin:0px 0px 25px;}
+.It-banner__text h2 strong{color:var(--secondary-color) ;}
+.It-banner__text p{color: var(--primary);font-size:14px;margin:0px 0px 15px;}
+.It-banner__text a{background-color: var(--secondary-color);padding:15px 39px;border-radius: 30px;font-size:17px;font-weight: 600;}
+.It-banner__text a i{font-size: 20px;}
+.IT-banner__img{background-image: url('images/circle__tanda.png');background-repeat: no-repeat;background-size: cover;}
+
+/*==========================Office========================
+============================================================*/
+.Office{padding: 70px 0px;position: relative;font-family: 'Inter';list-style: none;}
+.Office__img img{border-radius:8px;}
+.Office__img:first-child {width: 80%;  }
+.Office__img2 {position: relative;left: 20%;width: 80%;top: -80px;margin-bottom: -80px;box-shadow: 0 0 10px #ccc;padding: 5px;background: #fff;}
+.overlay {position: absolute;left: 32%;top: 40%;height: 200px;width: 200px;text-align: center;background: #fff;transform: translate(50px,-50%);border-radius: 8px;box-shadow: 0 0 10px #ccc;
+}
+.overlay .content {position: absolute;left: 50%;top: 50%;transform: translate(-50%,-50%);width: 100%;padding: 0 30px;}
+.overlay .content h4{text-transform: uppercase;font-weight: 700;font-size: 24px;}
+.Office__info h2{color: #0E2B3D;line-height:38.4px;font-weight:600;margin:var(--margin);font-size:32px}
+.Office__info p{color: var(--primary);font-size: 14px;margin: 0px 0px 15px;font-family: 'Inter';}
+.Office__author {display: flex;align-items: center;margin-top: 30px;}
+.Office__author img{height: 100px;object-fit: fill;}
+.Office__author h5 {font-weight: 600;margin-bottom: 10px;}
+.Office__img::after {transform: translateX(10px);position: absolute;left: -200px;top: 100px;content: "";height: 100%;width: 100%;background: url(images/1.png);background-size: contain;background-repeat: no-repeat;z-index: -1;
+}
+
+
+/*==========================Features========================
+============================================================*/
+.Features{font-family: 'Inter';margin-bottom: 67px;}
+.Features__heading h4 {color: var(--secondary-color);font-weight: 600;text-transform: uppercase;}
+.Features__heading h2 {display: inline-block;font-weight: 600;padding-bottom: 20px;margin-bottom: 50px;position: relative;letter-spacing: 1px;line-height: 1.4;}
+.Features__heading  h2::after {background: var(--secondary-color) none repeat scroll 0 0;bottom: 0;content: "";height: 2px;left: 50%;margin-left: 20px;position: absolute;width: 5px;}
+.Features__heading  h2::before {background: var(--secondary-color) none repeat scroll 0 0;bottom: 0;content: "";height: 2px;left: 50%;margin-left: -25px;position: absolute;width: 40px;}
+.cards{width:255px;margin: 0px 10px;background: #fff;padding:  30px;box-shadow: 0 5px 10px 0 rgb(214 215 216 / 57%);position: relative;z-index: 1;margin-bottom: 10px;}
+.cards i {display: flex;justify-content: center;color: #086ad8;margin-bottom: 30px;font-size: 50px;}
+.cards::after {position: absolute;left: 50%;width: 50px;height: 3px;content: "";background: var(--secondary-color);bottom: 0;margin-left: -25px;transition: all .35s ease-in-out;border-radius: 50px;opacity: 0;}
+.cards h5{text-align: center;font-weight: 700;font-size: 20px;line-height: 24px;}
+.cards p{font-size: 13px;} 
+.cards__img img{max-width: 45%;
+    padding-bottom: 30px;
+    object-fit: cover;}
+
+    div#features-carousal-2,div#features-carousal-3 {height: 121px;align-items: end; display: flex;}
+    div#features-carousal-4{padding-top:40px}
+
+/*==========================Testimonial=====================
+============================================================*/
+.Testimonial {padding: 70px 0px;background-image: url(images/background-testimonials.png);background-size: inherit;background-repeat: no-repeat;background-color: #ecf5ff;}
+.Testimonial h4{color: #000060;font-family: 'Poppins';font-size:20px;line-height: 25px;font-family: 'Inter';color: black;}
+.Testimonial h2{color: #1C1C1C;line-height:34px;padding: 10px 0px 40px ;font-family:'Inter';color: black;font-family: 'Mulish';font-size: 40px;font-weight: 700;}
+.Testimonial p{font-size: 20px;font-family: 'Poppins';color: #535353;font-style: italic;}
+.Testimonial__info img{width: 100%;max-width: 20%;}
+.Testimonial__quote-right svg{position: absolute;top: -18px;}
+h4.Testimonial__name{font-family: 'Mulish';color: #007CFB;font-size: 18px;font-weight: 600;}
+p.author__designation{font-family: "Poppins", Sans-serif;font-size: 14px;font-weight: 400;color: #333333;}
+i.fa.fa-star {color: #FFC107;gap: 5px;padding: 10px 0px 0px 6px;}
+.Testimonial__icons:not:first-child {font-size: 20px;}
+
+/*==========================Tabs============================
+============================================================*/
+.tabs{padding: 70px 0px;font-family: 'Poppins';}
+.modal-img img{object-fit: cover;}
+.modal-body{font-family: 'Poppins';}
+.tabs__content h6{font-size: 17px;font-weight: 600;line-height: 23.7px;}
+.tabs__content span{background: linear-gradient(to right, #12C2E9, #2393ee, #1a055f);font-weight: 500;}
+.tabs__content span{-webkit-background-clip: text !important;}
+.tabs__content span{  -webkit-text-fill-color: transparent;}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: black !important;
+    background-color: #ffff !important;}
+
+/*==========================Contact-form=====================
+============================================================*/
+.Contact-form{background-color: #fbfcfd;padding: 70px 0px 0px;}
+.Contact__img{width: 450px;}
+.section-sub__title {font-size: 16px;color: #16243d;font-weight: 700;line-height: 26px;text-transform: uppercase;letter-spacing: 0.1em;margin-bottom: 3px;}
+h2.Contact__title {font-family: 'Poppins';font-weight: 600;}
+.Contact__input-box input[type="text"], .Contact__input-box input[type="email"],textarea {height: 60px;width: 100%;border: 1px solid #dfe3e7;background-color: white;box-shadow: 0px 5px 20px 0px rgb(0 0 0 / 5%);outline: none;font-size: 16px;color: var(--insur-gray);font-weight: 400;padding: 0 30px 0;border-radius: 10px;}
+textarea{height: 200px;padding:20px 30px;}
+.Contact__input-box {position: relative;display: block;margin-bottom: 20px;}
+.Contact__input-box .bootstrap-select>.dropdown-toggle {position: absolute;top: 0;bottom: 0;right: 30px;font-family: "Font Awesome 5 Free";content: "\f107";font-weight: 900;font-size: 14px;color: gray;}
+p.Contact-sub__title{font-size: 20px;font-weight: 400;font-family: 'Poppins';}
+.thm-btn {position: relative;display: inline-block;vertical-align: middle;-webkit-appearance: none;outline: none !important;background-color: var(--insur-base);color: var(--insur-white);font-size: 16px;font-weight: 700;letter-spacing: var(--insur-letter-spacing);border-radius: var(--insur-bdr-radius);padding: 17px 40px 17px;transition: all 0.5s linear;overflow: hidden;z-index: 1;}
+button.thm-btn.get-insurance__btn { background-color: #015fc9; border: 0px; border-radius: 10px; color: white;margin: 30px 0px 119px;}
+
+/*==========================Footer=====================
+============================================================*/
+Footer{background-color: #001d4c;padding: 120px;font-family: 'Inter';}
+.form-control {display: block;width: 100%;height: calc(1.5em + 0.75rem + 2px);padding: 0.375rem 0.75rem;font-size: 1rem;font-weight: 400;line-height: 1.5;color: #495057;border: 0px;background-color: #fff;background-clip: padding-box;border: 1px solid #ced4da;border-radius: 25px;transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;min-height: 60px;}
+input.form-control {border-radius: 30px;border: 0px;padding: 30px;}
+footer form button {position: absolute;right: 5px;top: 5px;height: 50px;border: 0;width: 50px;border-radius: 50%;background: #086ad8;color: #fff;}
+Footer P {color: #C2D1E2;font-size:14px;}
+h4{font-weight: 600;margin-bottom: 30px;}
+Footer li {margin-bottom: 10px;list-style: none;}
+.Footer-content a{text-decoration: none;color:#C2D1E2 ;}
+.Footer-content a:hover,span{color: white;transition: 0.4s ease-in-out;}
+.Footer__info i{font-size: 28px;}
+.footer-bottom{background-color: #0f2a57;}
+.footer-bottom p, .footer-bottom li a{color:#C2D1E2 ;}
+.footer-bottom li a{color:#c2c9c3 ;font-weight: 500;}
+.footer-bottom li{list-style: none;}
+.footer-bottom .menu a{text-decoration: none;}
+
+
+
+/*==========================Responsive=====================
+============================================================*/
+@media screen and (min-width: 1400px) {
+    .Office__img::after {transform: translateX(10px);position: absolute;left: -400px;top: 100px;content: "";height: 100%;width: 100%;background: url(images/1.png);background-size: contain;background-repeat: no-repeat;z-index: -1;
+    }
+}
+@media screen and (max-width: 1199px) {
+    .nav-link { font-size: 10px;}}
+@media screen and (max-width: 991px) {
+    .overlay {position: absolute;left: 61%;top: 33%;}
+    .It-banner__text {padding: 75px 0px;}
+    .navbar-brand {width: 22%;}   
+    .nav-pills .nav-link {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .It-banner__text h2{font-size: 36px;line-height: 46px;}
+    .It-banner__text {padding: 15px 0px;}
+    .Office__img2 {position: relative;left: 20%;}
+    .tabs__content  h6{padding-bottom: 30px;}
+    .cards {
+        width: 400px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .overlay .content h4 {font-size: 16px;}
+}
